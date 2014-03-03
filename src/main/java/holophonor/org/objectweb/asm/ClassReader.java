@@ -439,6 +439,21 @@ public class ClassReader {
     }
 
     /**
+     * Constructs a new {@link ClassReader} object.
+     *
+     * @param name  the binary qualified name of the class to be read.
+     * @param classLoader the classloader to loas this class
+     *
+     * @throws IOException
+     *             if an exception occurs during reading.
+     */
+    public ClassReader(final String name, ClassLoader classLoader) throws IOException {
+        this(readClass(
+                classLoader.getResourceAsStream(name.replace('.', '/')
+                        + ".class"), true));
+    }
+
+    /**
      * Reads the bytecode of a class.
      * 
      * @param is
