@@ -27,6 +27,29 @@ Some ideas are.
 2. Production monitoring of application performance. A lightweight alternative to some of the more enterprie application performance monitoring solutions.
 3. General instrumentation of business methods to provide low level insight into how users are using a paticular application.
 
+
+###How to use?
+Either checkout this repository and build using 
+```bash
+sbt assembly
+```
+Or download [holophonor-0.1.jar](https://github.com/rikf/Holophonor/raw/master/holophonor-assembly-0.1.jar)
+
+Then add the following flag to your java process.
+
+``` -javaagent:/Path/to/holophonor/holophonor-assembly-0.1.jar ```
+
+The output for a method call will look something like this
+
+```
+Method Inovation
+Full qualified method name: the.next/big/thing/for/pets/Owner#getPets()Ljava/util/List;
+Wall Time: 230000
+Cpu Time: 225000
+```
+
+Note the timings are in nano seconds so divide by 1000000 to get milliseconds
+
 Have fun :)
 
 ## License
