@@ -1,7 +1,7 @@
 Holophonor
 ==========
 
-![Holophonor](http://img2.wikia.nocookie.net/__cb20061012203400/en.futurama/images/5/5e/Holophonor.jpg)
+![Holophonor](https://raw.github.com/rikf/Holophonor/master/Holophonor.jpg)
 
 Holophonor is a light weight instrumentation tool for the jvm.
 
