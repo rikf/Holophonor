@@ -3,6 +3,8 @@ Holophonor
 
 ![Holophonor](https://raw.github.com/rikf/Holophonor/master/Holophonor.jpg)
 
+[![Build Status](https://travis-ci.org/rikf/Holophonor.png?branch=master)](https://travis-ci.org/rikf/Holophonor)
+
 Holophonor is a light weight instrumentation tool for the jvm.
 
 
