@@ -7,7 +7,7 @@ Holophonor
 
 The Holophonor is a musical instrument of the 30th Century, it is best described as a combination of an Oboe and a Holographic Projector.
 
-The Holophonor is alaso a light weight instrumentation tool for the jvm.
+The Holophonor is also a light weight instrumentation tool for the jvm.
 
 
 Holophonor is designed to provide a very light weight, low overhead (on the order of tens of nano seconds on my 13" rMBP) and robust tool for profiling the JVM in any environment from development to production. It does this by instrumenting bytecode at runtime using a combination of [ASM](http://asm.ow2.org/) and JVM [Agents](http://docs.oracle.com/javase/6/docs/api/java/lang/instrument/package-summary.html)
@@ -28,8 +28,8 @@ This version of Holophonor comes with only one *StatsCollector* that is a *Print
 Some ideas are.
 
 1. A dead code finder. Implement a stats collector that records all method calls. Deploy it to a production or UAT environment and compare the recorded calls with the methods in your jar/source tree.
-2. Production monitoring of application performance. A lightweight alternative to some of the more enterprie application performance monitoring solutions.
-3. General instrumentation of business methods to provide low level insight into how users are using a paticular application.
+2. Production monitoring of application performance. A lightweight alternative to some of the more enterprise application performance monitoring solutions.
+3. General instrumentation of business methods to provide low level insight into how users are using a particular application.
 
 
 ###How to use?
