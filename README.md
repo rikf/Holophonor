@@ -5,7 +5,9 @@ Holophonor
 
 [![Build Status](https://travis-ci.org/rikf/Holophonor.png?branch=master)](https://travis-ci.org/rikf/Holophonor)
 
-Holophonor is a light weight instrumentation tool for the jvm.
+The Holophonor is a musical instrument of the 30th Century, it is best described as a combination of an Oboe and a Holographic Projector.
+
+The Holophonor is alaso a light weight instrumentation tool for the jvm.
 
 
 Holophonor is designed to provide a very light weight, low overhead (on the order of tens of nano seconds on my 13" rMBP) and robust tool for profiling the JVM in any environment from development to production. It does this by instrumenting bytecode at runtime using a combination of [ASM](http://asm.ow2.org/) and JVM [Agents](http://docs.oracle.com/javase/6/docs/api/java/lang/instrument/package-summary.html)
@@ -57,7 +59,7 @@ Have fun :)
 ## License
 Holophonor is released under version 2.0 of the [Apache License](http://www.apache.org/licenses/LICENSE-2.0).
 
-##ASM License
+###ASM License
 
 This program uses the ASM bytecode engineering library which is distributed
 with the following notice:
@@ -83,6 +85,8 @@ are met:
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
 AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
 IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+
+
 ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE
 LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
 CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
@@ -91,3 +95,7 @@ INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
 CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
 ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
 THE POSSIBILITY OF SUCH DAMAGE.
+
+###Image of Holophonor
+Fair Use - this image is copyrighted, but used here under [Wikipedia's fair use](http://en.wikipedia.org/wiki/Fair_use) guidelines
+Owner/Creator The Twentieth Century Fox Film Corporation and its various divisions
